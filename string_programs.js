@@ -1,9 +1,9 @@
 // Ten beginner-friendly JavaScript string programs with step-by-step solutions.
 
 // 1. Reverse a string
-// Steps: split the string into characters, reverse the array, then join it back.
+// Steps: convert the string to code points, reverse the array, then join it back.
 function reverseString(text) {
-  return text.split("").reverse().join("");
+  return Array.from(text).reverse().join("");
 }
 
 // 2. Check whether a string is a palindrome
